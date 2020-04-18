@@ -9,7 +9,7 @@
 	<artifactId>vertx-messaging</artifactId>
 
 	<properties>
-		<vertx.version>3.3.3</vertx.version>
+		<vertx.version>3.9.0</vertx.version>
 	</properties>
 	<dependencies>
 		<dependency>
