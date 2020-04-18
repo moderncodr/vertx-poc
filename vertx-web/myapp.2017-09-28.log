@@ -1,0 +1,60 @@
+16:58:41.245 INFO  o.h.vertx.web.AuctionServiceVerticle - Server is started at port: 8000.
+17:01:40.448 INFO  o.h.vertx.web.AuctionServiceVerticle - Server is started at port: 8000.
+17:03:52.828 INFO  o.h.vertx.web.AuctionServiceVerticle - Server is started at port: 8000.
+17:03:57.945 INFO  o.h.vertx.web.AuctionServiceVerticle - A socket was created
+17:04:04.816 INFO  o.h.vertx.web.auction.AuctionHandler - Received bidding price: 10.00.
+17:04:09.034 INFO  o.h.vertx.web.auction.AuctionHandler - Received bidding price: 20.00.
+17:04:21.113 INFO  o.h.vertx.web.auction.AuctionHandler - Received bidding price: 30.00.
+17:04:34.205 INFO  o.h.vertx.web.AuctionServiceVerticle - A socket was created
+17:04:38.642 INFO  o.h.vertx.web.auction.AuctionHandler - Received bidding price: 4.00.
+17:04:38.643 INFO  o.h.vertx.web.auction.AuctionHandler - Received invalid price: 4.00.
+17:04:42.114 INFO  o.h.vertx.web.auction.AuctionHandler - Received bidding price: 90.00.
+17:05:29.501 INFO  o.h.vertx.web.AuctionServiceVerticle - Server is started at port: 8000.
+17:05:32.890 INFO  o.h.vertx.web.AuctionServiceVerticle - A socket was created
+17:06:02.555 INFO  o.h.vertx.web.AuctionServiceVerticle - Server is started at port: 8000.
+17:06:06.285 INFO  o.h.vertx.web.AuctionServiceVerticle - A socket was created
+17:08:05.393 INFO  o.h.vertx.web.AuctionServiceVerticle - Server is started at port: 8000.
+17:08:10.222 INFO  o.h.vertx.web.AuctionServiceVerticle - A socket was created
+17:09:32.550 INFO  o.h.vertx.web.AuctionServiceVerticle - Server is started at port: 8000.
+17:09:35.862 INFO  o.h.vertx.web.AuctionServiceVerticle - A socket was created
+17:09:37.893 INFO  o.h.vertx.web.auction.AuctionHandler - Received bidding price: 30.00.
+17:09:42.212 INFO  o.h.vertx.web.auction.AuctionHandler - Received bidding price: 30.00.
+17:09:42.212 INFO  o.h.vertx.web.auction.AuctionHandler - Received invalid price: 30.00.
+17:09:46.471 INFO  o.h.vertx.web.auction.AuctionHandler - Received bidding price: 31.00.
+17:09:54.598 INFO  o.h.vertx.web.AuctionServiceVerticle - A socket was created
+17:09:57.330 INFO  o.h.vertx.web.AuctionServiceVerticle - A socket was created
+17:11:19.646 INFO  o.h.vertx.web.AuctionServiceVerticle - Server is started at port: 8000.
+17:11:23.054 INFO  o.h.vertx.web.AuctionServiceVerticle - A socket was created
+17:12:33.552 INFO  o.h.vertx.web.AuctionServiceVerticle - Server is started at port: 8000.
+17:12:37.860 INFO  o.h.vertx.web.AuctionServiceVerticle - A socket was created
+17:12:58.501 INFO  o.h.vertx.web.AuctionServiceVerticle - Server is started at port: 8000.
+17:13:01.448 INFO  o.h.vertx.web.AuctionServiceVerticle - A socket was created
+17:13:33.511 INFO  o.h.vertx.web.AuctionServiceVerticle - Server is started at port: 8000.
+17:13:35.131 INFO  o.h.vertx.web.AuctionServiceVerticle - A socket was created
+17:14:01.019 INFO  o.h.vertx.web.AuctionServiceVerticle - Server is started at port: 8000.
+17:14:03.568 INFO  o.h.vertx.web.AuctionServiceVerticle - A socket was created
+17:14:21.379 INFO  o.h.vertx.web.AuctionServiceVerticle - Server is started at port: 8000.
+17:14:23.330 INFO  o.h.vertx.web.AuctionServiceVerticle - A socket was created
+17:14:25.862 INFO  o.h.vertx.web.auction.AuctionHandler - Received bidding price: 1.00.
+17:14:31.498 INFO  o.h.vertx.web.auction.AuctionHandler - Received bidding price: 2.00.
+17:14:34.416 INFO  o.h.vertx.web.AuctionServiceVerticle - A socket was created
+17:14:37.976 INFO  o.h.vertx.web.AuctionServiceVerticle - A socket was created
+17:14:41.959 INFO  o.h.vertx.web.auction.AuctionHandler - Received bidding price: 3.00.
+17:14:48.817 INFO  o.h.vertx.web.auction.AuctionHandler - Received bidding price: 2.40.
+17:14:48.818 INFO  o.h.vertx.web.auction.AuctionHandler - Received invalid price: 2.40.
+17:14:54.814 INFO  o.h.vertx.web.auction.AuctionHandler - Received bidding price: 3.10.
+18:29:02.281 DEBUG org.hliu.vertx.web.mvc.PageHandler - Start to handle the request.
+18:29:02.367 DEBUG org.hliu.vertx.web.mvc.PageHandler - Process time: 61212938. 
+18:29:02.372 DEBUG org.hliu.vertx.web.mvc.PageHandler - Finish handling the request.
+18:29:45.950 INFO  o.h.vertx.web.AuctionServiceVerticle - Server is started at port: 8000.
+18:29:57.744 INFO  o.h.vertx.web.AuctionServiceVerticle - A socket was created
+18:30:05.841 INFO  o.h.vertx.web.AuctionServiceVerticle - A socket was created
+18:30:58.230 INFO  o.h.vertx.web.auction.AuctionHandler - Received bidding price: 1.00.
+18:31:15.694 INFO  o.h.vertx.web.AuctionServiceVerticle - A socket was created
+18:31:20.508 INFO  o.h.vertx.web.auction.AuctionHandler - Received bidding price: 10.00.
+18:31:31.083 INFO  o.h.vertx.web.auction.AuctionHandler - Received bidding price: 9.00.
+18:31:31.084 INFO  o.h.vertx.web.auction.AuctionHandler - Received invalid price: 9.00.
+18:31:46.358 INFO  o.h.vertx.web.auction.AuctionHandler - Received bidding price: 9000.00.
+18:32:03.853 INFO  o.h.vertx.web.auction.AuctionHandler - Received bidding price: 1000.00.
+18:32:03.854 INFO  o.h.vertx.web.auction.AuctionHandler - Received invalid price: 1000.00.
+18:32:06.143 INFO  o.h.vertx.web.auction.AuctionHandler - Received bidding price: 10000.00.

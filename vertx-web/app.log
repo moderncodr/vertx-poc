@@ -1,0 +1,12 @@
+12:51:41.878 DEBUG org.hliu.vertx.web.mvc.PageHandler - Start to handle the request.
+12:51:41.929 DEBUG org.hliu.vertx.web.mvc.PageHandler - Process time: 26520653. 
+12:51:41.933 DEBUG org.hliu.vertx.web.mvc.PageHandler - Finish handling the request.
+12:51:44.532 DEBUG org.hliu.vertx.web.mvc.PageHandler - Start to handle the request.
+12:51:44.534 DEBUG org.hliu.vertx.web.mvc.PageHandler - Process time: 1060746. 
+12:51:44.534 DEBUG org.hliu.vertx.web.mvc.PageHandler - Finish handling the request.
+16:30:32.174 DEBUG org.hliu.vertx.web.mvc.PageHandler - Start to handle the request.
+16:30:32.455 DEBUG org.hliu.vertx.web.mvc.PageHandler - Process time: 120898737. 
+16:30:32.505 DEBUG org.hliu.vertx.web.mvc.PageHandler - Finish handling the request.
+16:30:44.319 DEBUG org.hliu.vertx.web.mvc.PageHandler - Start to handle the request.
+16:30:44.323 DEBUG org.hliu.vertx.web.mvc.PageHandler - Process time: 3002079. 
+16:30:44.324 DEBUG org.hliu.vertx.web.mvc.PageHandler - Finish handling the request.

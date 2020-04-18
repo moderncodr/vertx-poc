@@ -1,0 +1,130 @@
+22:26:14.648 DEBUG org.hliu.vertx.web.mvc.PageHandler - Start to handle the request.
+22:26:14.679 DEBUG org.hliu.vertx.web.mvc.PageHandler - Process time: 20237009. 
+22:26:14.680 DEBUG org.hliu.vertx.web.mvc.PageHandler - Finish handling the request.
+22:26:31.586 DEBUG org.hliu.vertx.web.mvc.PageHandler - Start to handle the request.
+22:26:31.587 DEBUG org.hliu.vertx.web.mvc.PageHandler - Process time: 494288. 
+22:26:31.587 DEBUG org.hliu.vertx.web.mvc.PageHandler - Finish handling the request.
+22:32:38.709 DEBUG org.hliu.vertx.web.mvc.PageHandler - Start to handle the request.
+22:32:38.748 DEBUG org.hliu.vertx.web.mvc.PageHandler - Process time: 24137613. 
+22:32:38.749 DEBUG org.hliu.vertx.web.mvc.PageHandler - Finish handling the request.
+22:32:41.361 DEBUG org.hliu.vertx.web.mvc.PageHandler - Start to handle the request.
+22:32:41.362 DEBUG org.hliu.vertx.web.mvc.PageHandler - Process time: 465357. 
+22:32:41.362 DEBUG org.hliu.vertx.web.mvc.PageHandler - Finish handling the request.
+22:35:21.059 DEBUG org.hliu.vertx.web.mvc.PageHandler - Start to handle the request.
+22:35:21.094 DEBUG org.hliu.vertx.web.mvc.PageHandler - Process time: 25682025. 
+22:35:21.096 DEBUG org.hliu.vertx.web.mvc.PageHandler - Finish handling the request.
+22:35:27.808 DEBUG org.hliu.vertx.web.mvc.PageHandler - Start to handle the request.
+22:35:27.809 DEBUG org.hliu.vertx.web.mvc.PageHandler - Process time: 483186. 
+22:35:27.809 DEBUG org.hliu.vertx.web.mvc.PageHandler - Finish handling the request.
+22:36:35.615 DEBUG org.hliu.vertx.web.mvc.PageHandler - Start to handle the request.
+22:36:35.649 DEBUG org.hliu.vertx.web.mvc.PageHandler - Process time: 22686801. 
+22:36:35.652 DEBUG org.hliu.vertx.web.mvc.PageHandler - Finish handling the request.
+22:38:42.997 DEBUG org.hliu.vertx.web.mvc.PageHandler - Start to handle the request.
+22:38:43.020 ERROR org.hliu.vertx.web.mvc.PageHandler - Failed to process the request! page: class org.hliu.vertx.web.home.HomePage, template: home.html.
+com.github.mustachejava.MustacheException: Mismatched start/end tags: null != base in templates/home.html:3
+	at com.github.mustachejava.MustacheParser.compile(MustacheParser.java:151) ~[compiler-0.9.0.jar:na]
+	at com.github.mustachejava.MustacheParser.compile(MustacheParser.java:38) ~[compiler-0.9.0.jar:na]
+	at com.github.mustachejava.MustacheParser.compile(MustacheParser.java:34) ~[compiler-0.9.0.jar:na]
+	at com.github.mustachejava.MustacheParser.compile(MustacheParser.java:30) ~[compiler-0.9.0.jar:na]
+	at com.github.mustachejava.DefaultMustacheFactory$$Lambda$24/830183988.apply(Unknown Source) ~[na:na]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660) ~[na:1.8.0_45]
+	at com.github.mustachejava.DefaultMustacheFactory.compile(DefaultMustacheFactory.java:167) ~[compiler-0.9.0.jar:na]
+	at org.hliu.vertx.web.mvc.PageHandler.handle(PageHandler.java:83) [classes/:na]
+	at org.hliu.vertx.web.mvc.PageHandler.handle(PageHandler.java:1) [classes/:na]
+	at io.vertx.ext.web.impl.RouteImpl.handleContext(RouteImpl.java:215) [vertx-web-3.3.3.jar:na]
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:78) [vertx-web-3.3.3.jar:na]
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:94) [vertx-web-3.3.3.jar:na]
+	at io.vertx.ext.web.handler.impl.SessionHandlerImpl.lambda$handle$0(SessionHandlerImpl.java:115) [vertx-web-3.3.3.jar:na]
+	at io.vertx.ext.web.handler.impl.SessionHandlerImpl$$Lambda$21/834651348.handle(Unknown Source) [vertx-web-3.3.3.jar:na]
+	at io.vertx.ext.web.handler.impl.SessionHandlerImpl.lambda$doGetSession$2(SessionHandlerImpl.java:141) [vertx-web-3.3.3.jar:na]
+	at io.vertx.ext.web.handler.impl.SessionHandlerImpl$$Lambda$22/685362906.handle(Unknown Source) [vertx-web-3.3.3.jar:na]
+	at io.vertx.ext.web.sstore.impl.LocalSessionStoreImpl.get(LocalSessionStoreImpl.java:60) [vertx-web-3.3.3.jar:na]
+	at io.vertx.ext.web.handler.impl.SessionHandlerImpl.doGetSession(SessionHandlerImpl.java:128) [vertx-web-3.3.3.jar:na]
+	at io.vertx.ext.web.handler.impl.SessionHandlerImpl.getSession(SessionHandlerImpl.java:124) [vertx-web-3.3.3.jar:na]
+	at io.vertx.ext.web.handler.impl.SessionHandlerImpl.handle(SessionHandlerImpl.java:99) [vertx-web-3.3.3.jar:na]
+	at io.vertx.ext.web.handler.impl.SessionHandlerImpl.handle(SessionHandlerImpl.java:33) [vertx-web-3.3.3.jar:na]
+	at io.vertx.ext.web.impl.RouteImpl.handleContext(RouteImpl.java:215) [vertx-web-3.3.3.jar:na]
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:78) [vertx-web-3.3.3.jar:na]
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:94) [vertx-web-3.3.3.jar:na]
+	at io.vertx.ext.web.handler.impl.CookieHandlerImpl.handle(CookieHandlerImpl.java:66) [vertx-web-3.3.3.jar:na]
+	at io.vertx.ext.web.handler.impl.CookieHandlerImpl.handle(CookieHandlerImpl.java:42) [vertx-web-3.3.3.jar:na]
+	at io.vertx.ext.web.impl.RouteImpl.handleContext(RouteImpl.java:215) [vertx-web-3.3.3.jar:na]
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:78) [vertx-web-3.3.3.jar:na]
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:94) [vertx-web-3.3.3.jar:na]
+	at io.vertx.ext.web.impl.RouterImpl.accept(RouterImpl.java:79) [vertx-web-3.3.3.jar:na]
+	at org.hliu.vertx.web.WebApp$$Lambda$8/2034182655.handle(Unknown Source) [classes/:na]
+	at io.vertx.core.http.impl.ServerConnection.handleRequest(ServerConnection.java:286) [vertx-core-3.3.3.jar:na]
+	at io.vertx.core.http.impl.ServerConnection.processMessage(ServerConnection.java:412) [vertx-core-3.3.3.jar:na]
+	at io.vertx.core.http.impl.ServerConnection.handleMessage(ServerConnection.java:139) [vertx-core-3.3.3.jar:na]
+	at io.vertx.core.http.impl.HttpServerImpl$ServerHandler.lambda$createConnAndHandle$1(HttpServerImpl.java:712) [vertx-core-3.3.3.jar:na]
+	at io.vertx.core.http.impl.HttpServerImpl$ServerHandler$$Lambda$18/1118618663.run(Unknown Source) [vertx-core-3.3.3.jar:na]
+	at io.vertx.core.impl.ContextImpl.lambda$wrapTask$2(ContextImpl.java:314) [vertx-core-3.3.3.jar:na]
+	at io.vertx.core.impl.ContextImpl$$Lambda$14/1811991083.run(Unknown Source) [vertx-core-3.3.3.jar:na]
+	at io.vertx.core.impl.ContextImpl.executeFromIO(ContextImpl.java:190) [vertx-core-3.3.3.jar:na]
+	at io.vertx.core.http.impl.HttpServerImpl$ServerHandler.createConnAndHandle(HttpServerImpl.java:706) [vertx-core-3.3.3.jar:na]
+	at io.vertx.core.http.impl.HttpServerImpl$ServerHandler.doMessageReceived(HttpServerImpl.java:570) [vertx-core-3.3.3.jar:na]
+	at io.vertx.core.http.impl.HttpServerImpl$ServerHandler.doMessageReceived(HttpServerImpl.java:522) [vertx-core-3.3.3.jar:na]
+	at io.vertx.core.http.impl.VertxHttpHandler.channelRead(VertxHttpHandler.java:76) [vertx-core-3.3.3.jar:na]
+	at io.vertx.core.net.impl.VertxHandler.channelRead(VertxHandler.java:122) [vertx-core-3.3.3.jar:na]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293) [netty-codec-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267) [netty-codec-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.vertx.core.http.impl.HttpServerImpl$Http1xOrHttp2Handler.http1(HttpServerImpl.java:1019) [vertx-core-3.3.3.jar:na]
+	at io.vertx.core.http.impl.HttpServerImpl$Http1xOrHttp2Handler.channelRead(HttpServerImpl.java:990) [vertx-core-3.3.3.jar:na]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437) [netty-transport-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-common-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_45]
+22:38:43.033 DEBUG org.hliu.vertx.web.mvc.PageHandler - Process time: 22355017. 
+22:38:43.033 DEBUG org.hliu.vertx.web.mvc.PageHandler - Finish handling the request.
+22:39:12.469 DEBUG org.hliu.vertx.web.mvc.PageHandler - Start to handle the request.
+22:39:12.508 DEBUG org.hliu.vertx.web.mvc.PageHandler - Process time: 27321047. 
+22:39:12.510 DEBUG org.hliu.vertx.web.mvc.PageHandler - Finish handling the request.
+22:39:14.093 DEBUG org.hliu.vertx.web.mvc.PageHandler - Start to handle the request.
+22:39:14.093 DEBUG org.hliu.vertx.web.mvc.PageHandler - Process time: 395830. 
+22:39:14.094 DEBUG org.hliu.vertx.web.mvc.PageHandler - Finish handling the request.
+22:39:30.568 DEBUG org.hliu.vertx.web.mvc.PageHandler - Start to handle the request.
+22:39:30.604 DEBUG org.hliu.vertx.web.mvc.PageHandler - Process time: 24970481. 
+22:39:30.605 DEBUG org.hliu.vertx.web.mvc.PageHandler - Finish handling the request.
+22:39:32.943 DEBUG org.hliu.vertx.web.mvc.PageHandler - Start to handle the request.
+22:39:32.943 DEBUG org.hliu.vertx.web.mvc.PageHandler - Process time: 388872. 
+22:39:32.943 DEBUG org.hliu.vertx.web.mvc.PageHandler - Finish handling the request.
+22:40:00.948 DEBUG org.hliu.vertx.web.mvc.PageHandler - Start to handle the request.
+22:40:00.982 DEBUG org.hliu.vertx.web.mvc.PageHandler - Process time: 20604822. 
+22:40:00.984 DEBUG org.hliu.vertx.web.mvc.PageHandler - Finish handling the request.
+22:40:02.296 DEBUG org.hliu.vertx.web.mvc.PageHandler - Start to handle the request.
+22:40:02.297 DEBUG org.hliu.vertx.web.mvc.PageHandler - Process time: 344513. 
+22:40:02.297 DEBUG org.hliu.vertx.web.mvc.PageHandler - Finish handling the request.
+22:40:03.062 DEBUG org.hliu.vertx.web.mvc.PageHandler - Start to handle the request.
+22:40:03.063 DEBUG org.hliu.vertx.web.mvc.PageHandler - Process time: 329723. 
+22:40:03.063 DEBUG org.hliu.vertx.web.mvc.PageHandler - Finish handling the request.
+22:41:49.713 DEBUG org.hliu.vertx.web.mvc.PageHandler - Start to handle the request.
+22:41:49.747 DEBUG org.hliu.vertx.web.mvc.PageHandler - Process time: 21203285. 
+22:41:49.749 DEBUG org.hliu.vertx.web.mvc.PageHandler - Finish handling the request.
+22:42:37.027 DEBUG org.hliu.vertx.web.mvc.PageHandler - Start to handle the request.
+22:42:37.059 DEBUG org.hliu.vertx.web.mvc.PageHandler - Process time: 21077637. 
+22:42:37.060 DEBUG org.hliu.vertx.web.mvc.PageHandler - Finish handling the request.
+22:45:47.944 DEBUG org.hliu.vertx.web.mvc.PageHandler - Start to handle the request.
+22:45:47.984 DEBUG org.hliu.vertx.web.mvc.PageHandler - Process time: 25257805. 
+22:45:47.986 DEBUG org.hliu.vertx.web.mvc.PageHandler - Finish handling the request.
+22:46:29.928 DEBUG org.hliu.vertx.web.mvc.PageHandler - Start to handle the request.
+22:46:29.964 DEBUG org.hliu.vertx.web.mvc.PageHandler - Process time: 24136719. 
+22:46:29.968 DEBUG org.hliu.vertx.web.mvc.PageHandler - Finish handling the request.
+22:46:33.148 DEBUG org.hliu.vertx.web.mvc.PageHandler - Start to handle the request.
+22:46:33.157 DEBUG org.hliu.vertx.web.mvc.PageHandler - Process time: 900739. 
+22:46:33.157 DEBUG org.hliu.vertx.web.mvc.PageHandler - Finish handling the request.
